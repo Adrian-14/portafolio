@@ -1,3 +1,10 @@
+:root{
+	--primary-color: #000;
+	--secondary-color: #fff;
+	--dm-primary-color:#fff;
+	--dm-secondary-color: #000;
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -175,7 +182,7 @@ footer .redes-sociales a {
 	color: #fff;
 	margin: 20px;
 	text-align: center;
-	border-radius: 100px;
+	border-radius: 20px;
 	transition: .3s ease all;
 }
 
@@ -205,7 +212,7 @@ footer .creado-por {
 	margin-bottom: 40px;
 	text-align: center;
 	font-size: 14px;
-	color: #c13584;
+	color: #000;
 }
 
 footer .creado-por a {color: #000;}
