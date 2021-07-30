@@ -50,3 +50,21 @@ window.addEventListener('load', () => {
 		evento.target.id === 'overlay' ? overlay.classList.remove('activo') : '';
 	});
 });
+
+//dark mode
+const switchToggle = document.getElementById("switch"),
+	switchToggleImage = document.getElementById("switchToggleImage"),
+	container = document.getElementById("container");
+
+let switchState = true;
+switchToggle.addEventListener("click", () => {
+	contenedor.classList.toggle("dark");
+
+	if (switchState){
+		switchToggleImage.src = "img/moon-solid.svg";
+		switchState = !switchState;
+	}else{
+		switchToggleImage.src = "img/sun-solid.svg";
+		switchState = !switchState;
+	}
+});
