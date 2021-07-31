@@ -97,7 +97,7 @@ header .container {
 
 .mode.dark{
 	background: var(--dm-secondary-color);
-	color: var(--dm-primary-color);
+	color: var(--dm-primary-color) !important;
 }
 .mode.dark .switch__toggle {
 	left: 21px;
@@ -222,11 +222,13 @@ header .categorias a.activo {
 	position: absolute;
 	right: -20px;
 	top: -20px;
+	outline: none;
 }
 
 /* ------------------------- */
 /* Footer */
 /* ------------------------- */
+
 footer .redes-sociales {
 	display: flex;
 	align-content: center;
@@ -237,13 +239,13 @@ footer .redes-sociales {
 
 footer .redes-sociales a {
 	display: block;
-	width: 60px;
-	height: 60px;
+	width: 40px;
+	height: 40px;
 	background: #000;
 	color: #fff;
 	margin: 20px;
 	text-align: center;
-	border-radius: 20px;
+	border-radius: 50px;
 	transition: .3s ease all;
 }
 
@@ -253,7 +255,7 @@ footer .redes-sociales .instagram {background: #c13584;}
 
 footer .redes-sociales a i {
 	font-size: 20px;
-	line-height: 60px;
+	line-height: 40px;
 }
 
 footer .contenedor-icono:hover a {
@@ -273,11 +275,9 @@ footer .creado-por {
 	margin-bottom: 40px;
 	text-align: center;
 	font-size: 14px;
-	color: #000;
+	color: var(--primary-color);
 }
 
-footer .creado-por a {color: #000;}
-footer .creado-por a:hover {text-decoration: underline;}
 
 /* ------------------------- */
 /* Mediaqueries */
