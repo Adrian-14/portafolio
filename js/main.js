@@ -51,14 +51,14 @@ window.addEventListener('load', () => {
 	});
 });
 
-//dark mode
+	//dark mode
 const switchToggle = document.getElementById("switch"),
 	switchToggleImage = document.getElementById("switchToggleImage"),
 	container = document.getElementById("container");
 
 let switchState = true;
 switchToggle.addEventListener("click", () => {
-	contenedor.classList.toggle("dark");
+	mode.classList.toggle("dark");
 
 	if (switchState){
 		switchToggleImage.src = "img/moon-solid.svg";
