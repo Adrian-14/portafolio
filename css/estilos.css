@@ -229,6 +229,14 @@ header .categorias a.activo {
 /* Footer */
 /* ------------------------- */
 
+footer .titulo{
+	text-align: center;
+	font-size: 18px;
+	font-weight: 700;
+	padding-top: 30px;
+	align-items: center;
+}
+
 footer .redes-sociales {
 	display: flex;
 	align-content: center;
