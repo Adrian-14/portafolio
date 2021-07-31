@@ -100,10 +100,11 @@ header .barra-busqueda {
 	line-height: 40px;
 	background: #fff;
 	padding: 0 20px;
-	border-radius: 100px;
+	border-radius: 60px;
 	border: none;
 	text-align: center;
 	font-size: 16px;
+	outline: none;
 }
 
 header .categorias {
